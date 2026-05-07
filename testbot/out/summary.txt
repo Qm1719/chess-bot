@@ -1,0 +1,85 @@
+IN_PROGRESS  updated=2026-04-28 19:12:04
+
+Current ranking (from existing PGNs)
+Rank  Bot Name                                  Pts      S-B    W
+----  --------------------------------------  -----  -------  ---
+   1  Stockfish depth 5                        10.0    48.00   10
+   2  agents_v4 current                         9.5    42.50    9
+   3  agents_v4 no books/syzygy/exp             9.0    37.50    9
+   4  agents_v4 50% pick depth1                 8.0    33.00    7
+   5  agents_v4 10% pick second best            8.0    29.50    8
+   6  Stockfish depth 3                         6.5    19.00    6
+   7  agents_v4 no nnue (lite)                  5.0    10.00    5
+   8  agents_v4 no nnue + quick depth 3         4.0     6.00    4
+   9  agents_v4 always second best              3.0     3.00    3
+  10  agents_v4 quick depth 3                   2.0     1.00    2
+  11  agents_v4 no nnue always second best      1.0     0.00    1
+  12  pure random                               0.0     0.00    0
+
+Per-pair summary:
+01v02  1:Stockfish depth 5 vs 2:Stockfish depth 3  points 4.0-0.0  OK
+01v03  1:Stockfish depth 5 vs 3:agents_v4 current  points 2.5-1.5  OK
+01v04  1:Stockfish depth 5 vs 4:agents_v4 no books/syzygy/exp  points 3.0-1.0  OK
+01v05  1:Stockfish depth 5 vs 5:agents_v4 quick depth 3  points 3.0-1.0  OK
+01v06  1:Stockfish depth 5 vs 6:agents_v4 no nnue (lite)  points 2.5-1.5  OK
+01v07  1:Stockfish depth 5 vs 7:agents_v4 no nnue + quick depth 3  points 3.5-0.5  OK
+01v08  1:Stockfish depth 5 vs 8:agents_v4 50% pick depth1  points 1.0-3.0  OK
+01v09  1:Stockfish depth 5 vs 9:agents_v4 10% pick second best  points 3.0-1.0  OK
+01v10  1:Stockfish depth 5 vs 10:agents_v4 always second best  points 4.0-0.0  OK
+01v11  1:Stockfish depth 5 vs 11:agents_v4 no nnue always second best  points 3.0-1.0  OK
+01v12  1:Stockfish depth 5 vs 12:pure random  points 4.0-0.0  OK
+02v03  2:Stockfish depth 3 vs 3:agents_v4 current  points 1.0-3.0  OK
+02v04  2:Stockfish depth 3 vs 4:agents_v4 no books/syzygy/exp  points 1.5-2.5  OK
+02v05  2:Stockfish depth 3 vs 5:agents_v4 quick depth 3  points 2.5-1.5  OK
+02v06  2:Stockfish depth 3 vs 6:agents_v4 no nnue (lite)  points 2.5-1.5  OK
+02v07  2:Stockfish depth 3 vs 7:agents_v4 no nnue + quick depth 3  points 3.5-0.5  OK
+02v08  2:Stockfish depth 3 vs 8:agents_v4 50% pick depth1  points 2.0-2.0  OK
+02v09  2:Stockfish depth 3 vs 9:agents_v4 10% pick second best  points 0.5-3.5  OK
+02v10  2:Stockfish depth 3 vs 10:agents_v4 always second best  points 4.0-0.0  OK
+02v11  2:Stockfish depth 3 vs 11:agents_v4 no nnue always second best  points 3.0-1.0  OK
+02v12  2:Stockfish depth 3 vs 12:pure random  points 4.0-0.0  OK
+03v04  3:agents_v4 current vs 4:agents_v4 no books/syzygy/exp  points 3.0-1.0  OK
+03v05  3:agents_v4 current vs 5:agents_v4 quick depth 3  points 3.5-0.5  OK
+03v06  3:agents_v4 current vs 6:agents_v4 no nnue (lite)  points 3.0-1.0  OK
+03v07  3:agents_v4 current vs 7:agents_v4 no nnue + quick depth 3  points 4.0-0.0  OK
+03v08  3:agents_v4 current vs 8:agents_v4 50% pick depth1  points 2.0-2.0  OK
+03v09  3:agents_v4 current vs 9:agents_v4 10% pick second best  points 2.5-1.5  OK
+03v10  3:agents_v4 current vs 10:agents_v4 always second best  points 4.0-0.0  OK
+03v11  3:agents_v4 current vs 11:agents_v4 no nnue always second best  points 4.0-0.0  OK
+03v12  3:agents_v4 current vs 12:pure random  points 4.0-0.0  OK
+04v05  4:agents_v4 no books/syzygy/exp vs 5:agents_v4 quick depth 3  points 3.5-0.5  OK
+04v06  4:agents_v4 no books/syzygy/exp vs 6:agents_v4 no nnue (lite)  points 4.0-0.0  OK
+04v07  4:agents_v4 no books/syzygy/exp vs 7:agents_v4 no nnue + quick depth 3  points 3.0-1.0  OK
+04v08  4:agents_v4 no books/syzygy/exp vs 8:agents_v4 50% pick depth1  points 4.0-0.0  OK
+04v09  4:agents_v4 no books/syzygy/exp vs 9:agents_v4 10% pick second best  points 3.0-1.0  OK
+04v10  4:agents_v4 no books/syzygy/exp vs 10:agents_v4 always second best  points 4.0-0.0  OK
+04v11  4:agents_v4 no books/syzygy/exp vs 11:agents_v4 no nnue always second best  points 4.0-0.0  OK
+04v12  4:agents_v4 no books/syzygy/exp vs 12:pure random  points 4.0-0.0  OK
+05v06  5:agents_v4 quick depth 3 vs 6:agents_v4 no nnue (lite)  points 0.5-3.5  OK
+05v07  5:agents_v4 quick depth 3 vs 7:agents_v4 no nnue + quick depth 3  points 1.0-3.0  OK
+05v08  5:agents_v4 quick depth 3 vs 8:agents_v4 50% pick depth1  points 0.5-3.5  OK
+05v09  5:agents_v4 quick depth 3 vs 9:agents_v4 10% pick second best  points 0.0-4.0  OK
+05v10  5:agents_v4 quick depth 3 vs 10:agents_v4 always second best  points 1.0-3.0  OK
+05v11  5:agents_v4 quick depth 3 vs 11:agents_v4 no nnue always second best  points 4.0-0.0  OK
+05v12  5:agents_v4 quick depth 3 vs 12:pure random  points 3.0-1.0  OK
+06v07  6:agents_v4 no nnue (lite) vs 7:agents_v4 no nnue + quick depth 3  points 4.0-0.0  OK
+06v08  6:agents_v4 no nnue (lite) vs 8:agents_v4 50% pick depth1  points 1.5-2.5  OK
+06v09  6:agents_v4 no nnue (lite) vs 9:agents_v4 10% pick second best  points 0.5-3.5  OK
+06v10  6:agents_v4 no nnue (lite) vs 10:agents_v4 always second best  points 4.0-0.0  OK
+06v11  6:agents_v4 no nnue (lite) vs 11:agents_v4 no nnue always second best  points 4.0-0.0  OK
+06v12  6:agents_v4 no nnue (lite) vs 12:pure random  points 4.0-0.0  OK
+07v08  7:agents_v4 no nnue + quick depth 3 vs 8:agents_v4 50% pick depth1  points 0.5-3.5  OK
+07v09  7:agents_v4 no nnue + quick depth 3 vs 9:agents_v4 10% pick second best  points 0.0-4.0  OK
+07v10  7:agents_v4 no nnue + quick depth 3 vs 10:agents_v4 always second best  points 4.0-0.0  OK
+07v11  7:agents_v4 no nnue + quick depth 3 vs 11:agents_v4 no nnue always second best  points 3.5-0.5  OK
+07v12  7:agents_v4 no nnue + quick depth 3 vs 12:pure random  points 4.0-0.0  OK
+08v09  8:agents_v4 50% pick depth1 vs 9:agents_v4 10% pick second best  points 0.0-4.0  OK
+08v10  8:agents_v4 50% pick depth1 vs 10:agents_v4 always second best  points 4.0-0.0  OK
+08v11  8:agents_v4 50% pick depth1 vs 11:agents_v4 no nnue always second best  points 4.0-0.0  OK
+08v12  8:agents_v4 50% pick depth1 vs 12:pure random  points 4.0-0.0  OK
+09v10  9:agents_v4 10% pick second best vs 10:agents_v4 always second best  points 4.0-0.0  OK
+09v11  9:agents_v4 10% pick second best vs 11:agents_v4 no nnue always second best  points 4.0-0.0  OK
+09v12  9:agents_v4 10% pick second best vs 12:pure random  points 4.0-0.0  OK
+10v11  10:agents_v4 always second best vs 11:agents_v4 no nnue always second best  points 3.0-1.0  OK
+10v12  10:agents_v4 always second best vs 12:pure random  points 4.0-0.0  OK
+11v12  11:agents_v4 no nnue always second best vs 12:pure random  points 4.0-0.0  OK

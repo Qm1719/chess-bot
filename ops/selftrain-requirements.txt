@@ -1,0 +1,4 @@
+# Minimal deps for `submission v5/ops/selftrain.py` on a headless server.
+# `lichess-bot` already depends on `chess` and `requests` in this repo, but
+# `selftrain.py` only uses the standard library for HTTP + PGN is not required for ingestion.
+python-dotenv>=1.0.0

@@ -1,0 +1,21 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Secrets and local env (keep `selftrain.env.example` tracked)
+.env
+selftrain.env
+
+# Lichess bot runtime
+lichess-bot/lichess_bot_auto_logs/

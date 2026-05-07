@@ -1,0 +1,6 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.nnue filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+stockfish-ubuntu-x86-64-avx512 filter=lfs diff=lfs merge=lfs -text
