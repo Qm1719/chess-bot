@@ -1,6 +1,6 @@
 # Chess bot (NNUE-assisted)
 
-This repository is a Python chess bot written for an assignment for the Introduction to AI course at HCMUT. (It got full mark btw, hehe, thank teach!)
+This repository is a Python chess bot written for an assignment for the Introduction to AI course at HCMUT (It got full mark btw, hehe, thank you teach!).  
 It features a GUI for local play, and a Lichess integration so you can try the bot online (credit to [lichess-bot-devs](https://github.com/lichess-bot-devs/lichess-bot)).
 
 ## Try it out on Lichess
